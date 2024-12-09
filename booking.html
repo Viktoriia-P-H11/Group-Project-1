@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Booking</title>
+</head>
+<body>
+<div class="container-about">
+  <div class="content-booking">
+    <header class="header">
+      <div class="logo">
+          <img src="./logo.png" alt="Logo" class="logo">
+      </div>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./about.html#about">About</a></li>
+          <li><a href="./shop.html#shop">Shop</a></li>
+          <li><a href="./booking.html#booking">Booking</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="form-calendar-section">
+    
+    <div class="booking-workshop">
+        <h3 class="about-h">BOOK WORKSHOP NOW</h3>
+      <form id="booking-form">
+        <div class="workshop-choice">
+            
+            <div class="first-image-book">
+                <img src="./booking-1.jpeg" alt="Art workshop" class="booking-image">               
+                <input type="radio" name="workshop" id="Art"  value="Art workshop">
+                <label for="Art">Art workshop </label>
+            </div>
+            <div class="second-image-book">
+                <img src="./booking-2.jpg" alt="Handicraft workshop" class="booking-image">
+                
+                <input type="radio" name="workshop" id="Handicraft" value="Handicraft workshop">
+                <label for="Handicraft">Handicraft workshop</label>
+            </div>
+        </div>
+
+        <label for="first-name">Your name</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
+  
+        <label for="email">Email (optional)</label>
+        <input type="email" id="email" name="email" placeholder="email@janesfakedomain.net" required>
+  
+        <label for="datetime-local">Date and time (see free time left) </label>
+        <input type="datetime-local" id="calendar" name="datetime" placeholder="dd/mm/yyyy --:--" required>
+  
+        <button class="button-form" type="submit">Submit</button>
+      </form>
+    </div>
+    
+    <div class="calendar-frame">
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FOslo&showPrint=0&showTitle=0&showTabs=0&showCalendars=0&showTz=0&mode=WEEK&src=ZGlhbmFwcmlqbWFrODFAZ21haWwuY29t&src=ZW4ubm9yd2VnaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23795548&color=%230B8043" style="border-width:0" width="500" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+  <div class="form-feedback">
+    <div class="form-reviews">
+    <div class="review-title">
+        <h3 class="reviews-H">Your feedback inspires us to improve! </h3>
+        <p class="reviews-P">We are delighted to hear you enjoy our work and are </p>
+        <p class="reviews-P">open to constructive criticism.</p>
+    </div>
+    <div class="form-reviews-input">
+        <form id="contact-form-reviews">
+            <label for="first-name-reviews">First name</label>
+            <input type="text" id="first-name-reviews" name="first-name-reviews" placeholder="Viktoriia" required>              
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name-reviews" name="last-name-reviews" placeholder="Veldi Bra" required>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="email@Viktoriia.com" required>
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" placeholder="Enter your review" required></textarea>              
+            <button class="button-form" type="submit">Submit</button>
+        </form>
+        </div>
+    </div>
+    <div class="customers-reviews">
+        <h3 class="customers-H">Reviews from Our Customers</h3>
+    
+        <div class="review-container">
+            <img src="./Ellipse 1.png" alt="Emily S." class="review-image">
+            <div class="review-text">
+                <div class="review-author">Emily S.</div>
+                <div class="costumers-P">
+                    Excellent service! Everything was done quickly and professionally. I'll definitely come back again.
+                </div>
+            </div>
+        </div>
+    
+        <div class="review-container">
+            <img src="./Ellipse 2.png" alt="John D." class="review-image">
+            <div class="review-text">
+                <div class="review-author">John D.</div>
+                <div class="costumers-P">
+                    Professional approach and friendly staff. Highly recommend.
+                </div>
+            </div>
+        </div>
+    
+        <div class="review-container">
+            <img src="./Ellipse 3.png" alt="Sarah B." class="review-image">
+            <div class="review-text">
+                <div class="review-author">Sarah B.</div>
+                <div class="costumers-P">
+                    I’m very pleased with the results. Thank you for your work!
+                </div>
+            </div>
+        </div>    
+        <div class="review-container">
+            <img src="./Ellipse4.png" alt="Michael R." class="review-image">
+            <div class="review-text">
+                <div class="review-author">Michael R.</div>
+                <div class="costumers-P">
+                    Fantastic experience! Everything exceeded my expectations. Will recommend to friends!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<footer class="footer">
+  <div class="info">
+      <div class="logo-footer">
+          <img src="./logo.png" alt="Logo" class="logo" width="206px">
+          <p class="footer-adrese-text">Stenersgata 1, 0050 Oslo</p>
+      </div>
+  </div>
+<div class="links">
+      <a href="#" "id=about">About Us</a>
+      <a href="#" "id=shop">Shop</a>
+      <a href="#" "id=booking">Booking</a>
+      <a href="#" "id=feedbak">Feedback</a>
+</div>
+  <div class="contact">
+      <p "id=contact"><a href="tel:+123456789">Phone: +123456789</a></p>
+      <p "id=contact">Email: <a href="mailto:example@example.com"> example@example.com</a></p>
+      <a href="#" "id=contact">
+          <i class="fab fa-facebook"></i>
+      </a>
+      <a href="#" "id=contact">
+          <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="#" "id=contact">
+          <i class="fab fa-instagram"></i>
+      </a>                    
+</div>
+</footer>
+  </div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
+
+
