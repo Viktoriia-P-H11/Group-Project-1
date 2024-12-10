@@ -778,6 +778,7 @@ table {
     font-family: 'Kanit', sans-serif;
     left: 93px;
     top: -30px;
+    z-index: 10;
 }
 
 .btn:hover {
