@@ -1080,6 +1080,10 @@ a:hover {
     height: 72px;
 }
 
+.logo {
+    width: 206px;
+}
+
 .content-booking {
     position: relative;
     min-height: 708px;
