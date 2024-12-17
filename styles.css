@@ -26,10 +26,14 @@ body {
 }
 
 .container-about {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1440px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
 }
 
 .feedback {
@@ -322,14 +326,6 @@ input::placeholder {
     gap: 15px;
     align-items: center;
 }
-
-.gallery-villa img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
 .item1 {
     grid-column: span 2;
     justify-self: center;
