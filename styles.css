@@ -277,10 +277,10 @@ input::placeholder {
 
 .about-text {
     display: flex;
-    align-items: center;
-    justify-content: space-between;  
-    gap: 50px;
-    padding: 50px 5%;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 83px;
+    padding: 44px 5%;
 }
 
 .about-h {
