@@ -43,13 +43,6 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.about{
-    width: 80%;
-    max-width: 1440px;
-    max-height: 2272px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
 .content-home {
     position: relative;
     width: 100%;
@@ -60,16 +53,6 @@ body {
 }
 
 .content-about {
-    position: relative;
-    min-height: 708px;
-}
-
-.content-about {
-    position: relative;
-    min-height: 708px;  
-}
-
-.content-shop {
     position: relative;
     min-height: 708px;
 }
@@ -306,14 +289,13 @@ input::placeholder {
 }
 
 .about-shadow {
-    position: relative;
-    font-size: 177px;
-    text-transform: uppercase;
-    font-family: 'Arial', sans-serif;
-    font-weight: 800;
-    color: #fdf8f4;
-    left: 30px;
-    top: -212px;
+  font-size: 177px;
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif;
+  font-weight: 800;
+  color: #fdf8f4;
+  margin: -76px;
+  text-align: center;
 }
 
 .villa-photo {
@@ -327,16 +309,17 @@ input::placeholder {
     gap: 15px;
     align-items: center;
 }
+
 .item1 {
     grid-column: span 2;
     justify-self: center;
-    padding-left: 30px;
+    padding-left: 21px;
 }
 
 .item2 {
-    grid-row: span 2;
-    align-self: center;
-    padding-left: 27px;
+  grid-row: span 2;
+  align-self: center;
+  padding-left: 24px;
 }
 
 .item3, .item4 {
@@ -441,7 +424,9 @@ button:hover {
 .form-about {
     display: flex;
     justify-content: space-between;
-    padding: 50px 5%;
+    padding: 0px 5%;
+    z-index: 5;
+    margin-top: -30px;
 }
 
 .map-section {
