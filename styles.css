@@ -863,8 +863,6 @@ table {
 .handmade {
     position: relative;
     padding: 20px 0;
-    margin: 0 auto;
-    display: flex;
     gap: 20px;
     flex-direction: column;
     flex-wrap: wrap;
