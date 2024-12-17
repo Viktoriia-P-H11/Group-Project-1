@@ -1014,9 +1014,9 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: space-between;
     align-items: center;
-    gap: 250px;
+    gap: 25px;
     background-color: #f9a34e;
 }
   
