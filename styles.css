@@ -410,15 +410,14 @@ button:hover {
 }
 
 .contact-section-p {
-    background-color: #F9A34E;
-    color: #5E3A1B;
-    padding: 51px 0px;
-    text-align: center;
-    margin: 16px 29px;
-    font-family: 'Kanit, sans-serif';
-    font-size: 25px;
-    position: relative;
-    top: -9px;
+background-color: #F9A34E;
+  color: #5E3A1B;
+  padding: 51px 0px;
+  text-align: center;
+  margin: 39px 29px;
+  font-family: 'Kanit, sans-serif';
+  font-size: 25px;
+  position: relative;
 }
 
 .form-about {
