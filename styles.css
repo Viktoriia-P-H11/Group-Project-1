@@ -25,14 +25,20 @@ body {
      box-sizing: border-box;
 }
 
-.container-feedback {
+.container-about {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.feedback {
     width: 80%;
     max-width: 1440px;
     max-height: 2272px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.container-about{
+.about{
     width: 80%;
     max-width: 1440px;
     max-height: 2272px;
@@ -265,15 +271,15 @@ input::placeholder {
 }
 
 .about-craftsvilla {
-    flex: 1 1 50%;
-    min-width: 300px;
+    flex: 1;
 }
 
 .about-text {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    padding-top: 29px;
+    align-items: center;
+    justify-content: space-between;  
+    gap: 50px;
+    padding: 50px 5%;
 }
 
 .about-h {
@@ -288,11 +294,7 @@ input::placeholder {
 .about-p {
     font-size: 18px;
     font-family: 'Kanit', sans-serif;
-    max-width: 491px;
     text-align: justify;
-    position: relative;
-    left: 47px;
-    top: 39px;
     line-height: 1.9;
     text-indent: 20px;
 }
@@ -308,37 +310,38 @@ input::placeholder {
     top: -212px;
 }
 
-.gallery-villa .item img {
+.villa-photo {
+    flex: 1;
+}
+
+.gallery-villa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+    align-items: center;
+}
+
+.gallery-villa img {
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 5px;
 }
 
-.villa-photo {
-    flex: 1 1 50%;
-    min-width: 300px;
-}
-
 .item1 {
     grid-column: span 2;
+    justify-self: center;
 }
 
 .item2 {
-    grid-column: span 2;
-   
-    position: relative;
-    top: 7px;
+    grid-row: span 2;
+    align-self: center;
 }
 
 .item3, .item4 {
-    grid-column: span 1;
-}
-
-.item img {
-    height: auto;
-    object-fit: cover;
-    display: block;
+    justify-self: center;
+    align-self: center;
 }
 
 .form-section,
@@ -362,8 +365,6 @@ form {
     display: flex    ;
     flex-direction: column;
     gap: 13px;
-    position: relative;
-    top: -62px;
 }
 
 label {
@@ -438,17 +439,10 @@ button:hover {
 }
 
 .form-about {
-    display: flex;    ;
-    gap: 119px;
-    background-color: #fff;
-    padding: 54px;
-    border-radius: 8px;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-evenly;
-    align-items: stretch;
-    position: relative;
-    top: -268px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 5%;
+    background-color: #f7f7f7;
 }
 
 .map-section {
