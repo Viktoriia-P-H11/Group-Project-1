@@ -288,12 +288,13 @@ input::placeholder {
 .about-p {
     font-size: 18px;
     font-family: 'Kanit', sans-serif;
-    max-width: 670px;
+    max-width: 491px;
     text-align: justify;
     position: relative;
     left: 47px;
     top: 39px;
     line-height: 1.9;
+    text-indent: 20px;
 }
 
 .about-shadow {
