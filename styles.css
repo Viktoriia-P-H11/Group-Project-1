@@ -62,6 +62,11 @@ body {
     min-height: 708px;
 }
 
+.content-shop {
+    position: relative;
+  min-height: 708px;
+}
+
 .content-feedback::before {
     content: "";
     position: absolute;
