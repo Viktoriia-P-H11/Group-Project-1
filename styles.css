@@ -1089,6 +1089,9 @@ input::placeholder {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.calendar-frame {
+    margin:0 auto;
+}
 
 .booking-workshop {
 width: 50%;
