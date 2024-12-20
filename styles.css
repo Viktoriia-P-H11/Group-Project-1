@@ -109,10 +109,6 @@ body {
     display: block;
 }
 
-.form-reviews-input {
-    padding: 76px 0 0 0;
-}
-
 input::placeholder {
     color: #828282;
     font-family: Arial, Helvetica, sans-serif ;
