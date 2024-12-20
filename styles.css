@@ -84,7 +84,7 @@ body {
     top: 0;
     left: 0;
     width: 51%;
-    height: 86%;
+    height: 100%;
     background-color: #F9A34E;
     z-index: -1;
 }
@@ -1069,7 +1069,7 @@ a:hover {
     top: 0;
     left: 0;
     width: 60%;
-    height: 97%;
+    height:100%;
     background-color: #F9A34E;
     z-index: -1;
 }
