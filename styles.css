@@ -1091,6 +1091,7 @@ input::placeholder {
 }
 .calendar-frame {
     margin:0 auto;
+    width:33%
 }
 
 .booking-workshop {
